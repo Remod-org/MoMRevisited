@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MomRevisited", "MomRevisited\MomRevisited.vcxproj", "{0724D3D9-CBBF-4C0C-A6A9-40AFEDB13810}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A1685737-8349-49A7-9107-2455AE346879}"
+	ProjectSection(SolutionItems) = preProject
+		D:\SteamLibrary\steamapps\common\Memories of Mars\game.bat = D:\SteamLibrary\steamapps\common\Memories of Mars\game.bat
+		D:\SteamLibrary\steamapps\common\Memories of Mars - Dedicated Server\inject.bat = D:\SteamLibrary\steamapps\common\Memories of Mars - Dedicated Server\inject.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
