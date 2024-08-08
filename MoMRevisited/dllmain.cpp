@@ -5,11 +5,11 @@
 
 void* origApproveLogin = nullptr;
 
-static bool ApproveLoginHook(void* param1, void* param2, void* param_3){
+bool ApproveLoginHook(void* param1, void* param2, void* param_3){
 	return true;
 }
 
-static void InitHooking() {
+void InitHooking() {
 	uintptr_t baseaddress = (uintptr_t)GetModuleHandleA("MemoriesOfMarsServer.exe");
 
 	MH_Initialize();
@@ -21,11 +21,11 @@ static void InitHooking() {
 	MH_EnableHook(approveLogin);
 }
 
-static void ServerPatchMainThread() {
+void ServerPatchMainThread() {
 	InitHooking();
 }
 
-static BOOL APIENTRY DllMain( HMODULE hModule,
+BOOL APIENTRY DllMain( HMODULE hModule,
 		DWORD  ul_reason_for_call,
 		LPVOID lpReservedB
 		){

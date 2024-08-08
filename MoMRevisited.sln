@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A168
 	ProjectSection(SolutionItems) = preProject
 		D:\SteamLibrary\steamapps\common\Memories of Mars\game.bat = D:\SteamLibrary\steamapps\common\Memories of Mars\game.bat
 		D:\SteamLibrary\steamapps\common\Memories of Mars - Dedicated Server\inject.bat = D:\SteamLibrary\steamapps\common\Memories of Mars - Dedicated Server\inject.bat
+		MomRevisited.dll = MomRevisited.dll
 	EndProjectSection
 EndProject
 Global
