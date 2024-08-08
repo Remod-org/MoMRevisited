@@ -31,7 +31,7 @@ DedicatedServerConfig.cfg:
 DefaultPlatformService=null
 ```
   - Download an injector, e.g. https://github.com/nefarius/Injector and place the 64 bit copy of Injector.exe into your game server folder, e.g. C:\Program Files (x86)\Steam\SteamApps\common\Memories Of Mars - Dedicated Server.
-  - Place the compiled MomRevisited.dll into your Windows game server folder.
+  - Place the compiled MomRevisited.dll from this repo into your Windows game server folder.
   - Place the batch file, inject.bat from this repo, into the same game server folder.
   - Start the server, either from the command line RunServer.bat or via Steam (whichever works)
   - Run the inject.bat to patch the server.  This should return:
@@ -74,4 +74,16 @@ open 127.0.0.1?accid=ABC123?authticket=ABC123?gender=male?bSpawnBot=false
   - The client does remember console entries, and you can use the up and down arrows to cycle through past commands
   - There is (currently) no server browser
 
+## Compilation
+
+This is optional, but you may compile the MoMRevisited.dll yourself if you wish.
+
+It requires minhook, which can be retrieved from NuGet.
+
+Once you have the minhook extension, you will need to rename or copy the most recent version from your packages folder:
+
+  - Look in \MoMRevisited\packages\minhook.1.3.3\lib\native\lib
+  - Find, e.g., libMinHook-x64-v140-md.lib and rename or copy to libMinHook.lib
+  - You must select the 64 bit version, and several 64 and 32 bit versions will appear in this folder.  Choose the most recent.
+  - We are using Visual Studio, not VS Code.  YMMV.
 
