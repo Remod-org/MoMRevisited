@@ -5,7 +5,7 @@ This is a collection of scripts and binaries which can be used to re-enable the 
 History:
   On June 25, 2024, 505 Games took servers for the game offline.  This existed as possibly 2 servers on AWS that were used for server and client registration.  They facilitated a server list and client to server matchmaking.
 
-  Since this time, servers cannot register and will fail to start.  Clients also cannot be approved for connecting to any server.
+  Since this time, servers cannot register and will fail to start.  Clients also cannot browse for servers or be approved for connecting to any server.
 
   This code consists of:
   - Injection to the server to modify the login process.  This is custom code by gwog which uses a 3rd party injector application.
