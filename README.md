@@ -1,4 +1,4 @@
-# MomRevisited
+# MomRevisited (Memories Of Mars)
 
 This is a collection of scripts and binaries which can be used to re-enable the game server and client for Memories Of Mars.
 
