@@ -15,7 +15,7 @@ DedicatedServerConfig.cfg:
 DefaultPlatformService=null
 ```
   - Download an injector, e.g. https://github.com/nefarius/Injector and place the 64 bit copy of Injector.exe into your game server folder, e.g. C:\Program Files (x86)\Steam\SteamApps\common\Memories Of Mars - Dedicated Server.
-  - Place the compiled MomRevisited.dll into your Windows game server folder.
+  - Place the compiled MomRevisited.dll from this repo into your Windows game server folder.
   - Place the batch file, inject.bat from this repo, into the same game server folder.
   - Start the server, either from the command line RunServer.bat or via Steam (whichever works)
   - Run the inject.bat to patch the server.  This should return:
