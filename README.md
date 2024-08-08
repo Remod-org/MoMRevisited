@@ -13,7 +13,10 @@ History:
   - Scripts to facilitate server injection and client startup
   - Required server config changes to disable EAC and the proprietary Limbic subsystem.
 
-NOTE: You must own a licensed copy of the game to use this code.  Any other use may constitute a violation.
+## NOTES
+
+  - You must own a licensed copy of the game to use this code.  Any other use may constitute a violation.
+  - Since EAC will be disabled, keep this in mind for potential hackers with 'improved' clients and scripts.
 
 ## Server instructions
   - Edit your game server configs as follows
