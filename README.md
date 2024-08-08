@@ -19,6 +19,7 @@ History:
   - Since EAC will be disabled, keep this in mind for potential hackers with 'improved' clients and scripts.
 
 ## Server instructions
+  - This currently will only work for the Windows game server.
   - Edit your game server configs as follows
 
 DedicatedServerConfig.cfg:
