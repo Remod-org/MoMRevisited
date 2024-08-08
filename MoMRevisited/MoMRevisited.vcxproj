@@ -155,6 +155,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="D:\SteamLibrary\steamapps\common\Memories of Mars - Dedicated Server\inject.bat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="D:\SteamLibrary\steamapps\common\Memories of Mars\game.bat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
