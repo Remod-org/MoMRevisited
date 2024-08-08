@@ -3,7 +3,7 @@
 This is a collection of scripts and binaries which can be used to re-enable the game server and client for Memories Of Mars.
 
 History:
-  On July 25, 2024, 505 Games took servers for the game offline.  This existed as possibly 2 servers on AWS that were used for server and client registration.  They facilitated a server list and client to server matchmaking.
+  On June 25, 2024, 505 Games took servers for the game offline.  This existed as possibly 2 servers on AWS that were used for server and client registration.  They facilitated a server list and client to server matchmaking.
 
   Since this time, servers cannot register and will fail to start.  Clients also cannot be approved for connecting to any server.
 
@@ -28,7 +28,7 @@ DedicatedServerConfig.cfg:
 DefaultPlatformService=null
 ```
   - Download an injector, e.g. https://github.com/nefarius/Injector and place the 64 bit copy of Injector.exe into your game server folder, e.g. C:\Program Files (x86)\Steam\SteamApps\common\Memories Of Mars - Dedicated Server.
-  - Place the compiled MomRevisited.dll from this repo into your Windows game server folder.
+  - Place the compiled MomRevisited.dll into your Windows game server folder.
   - Place the batch file, inject.bat from this repo, into the same game server folder.
   - Start the server, either from the command line RunServer.bat or via Steam (whichever works)
   - Run the inject.bat to patch the server.  This should return:
