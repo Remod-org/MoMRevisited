@@ -16,6 +16,7 @@ History:
 ## NOTES
 
   - You must own a licensed copy of the game to use this code.  Any other use may constitute a violation.
+  - This will only work for Windows clients and servers.
   - Since EAC will be disabled, keep this in mind for potential hackers with 'improved' clients and scripts.
 
 ## Server instructions
