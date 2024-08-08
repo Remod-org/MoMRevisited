@@ -88,3 +88,8 @@ Once you have the minhook extension, you will need to rename or copy the most re
   - You must select the 64 bit version, and several 64 and 32 bit versions will appear in this folder.  Choose the most recent.
   - We are using Visual Studio, not VS Code.  YMMV.
 
+## Status
+  - Server running and accepting direct connections
+  - Client able to connect via console using UUU
+  - TODO: On reconnect, client appears as a new player, losing progress.
+
