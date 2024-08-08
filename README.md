@@ -89,7 +89,7 @@ Once you have the minhook extension, you will need to rename or copy the most re
   - We are using Visual Studio, not VS Code.  YMMV.
 
 ## Status
-  - Server running and accepting direct connections
-  - Client able to connect via console using UUU
+  - Server running and accepting direct connections (8 Aug 2024)
+  - Client able to connect via console using UUU (8 Aug 2024)
   - TODO: On reconnect, client appears as a new player, losing progress.
 
