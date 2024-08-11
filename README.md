@@ -78,6 +78,7 @@ open {IPADDRESSOFSERVER}?accid=ABC123?authticket=ABC123?gender={MALE/FEMALE}?bSp
 
 open 127.0.0.1?accid=ABC123?authticket=ABC123?gender=male?bSpawnBot=false
 
+  - You MUST start the game from the batch file either directly or in cmd.exe.  Starting from Steam may or may not work.
   - Each time you run the game, you will need to run UUU and select the running game client.
   - Server connection will always be via the open string in the console (`)
   - The client does remember console entries, and you can use the up and down arrows to cycle through past commands
