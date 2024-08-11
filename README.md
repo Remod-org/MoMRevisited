@@ -77,6 +77,7 @@ open 127.0.0.1?accid=ABC123?authticket=ABC123?gender=male?bSpawnBot=false
   - Server connection will always be via the open string in the console (`)
   - The client does remember console entries, and you can use the up and down arrows to cycle through past commands
   - There is (currently) no server browser - You will need to know the ip address of the target server, although DNS names may work.
+  - This mod does replace the function of ~.  For example, to reset your hotbar from build to inventory you may need to remap the key for this.
 
 ## Compilation
 
