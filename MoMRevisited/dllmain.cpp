@@ -3,9 +3,22 @@
 #include "MinHook.h"
 #include <thread>
 
+#ifdef __linux__ 
+// Note that linux is not yet working
+int approve_offset = 0x00962ca8;
+#elif _WIN32
+int approve_offset = 0x880050;
+#else
+
+#endif
+
 void* origApproveLogin = nullptr;
 
-bool ApproveLoginHook(void* param1, void* param2, void* param_3){
+unsigned long ApproveLoginHook(void* param1, unsigned long* param_2, unsigned int* param_3){
+  return 0x10101010;
+}
+
+bool oldApproveLoginHook(void* param1, void* param2, void* param_3){
 	return true;
 }
 
@@ -14,7 +27,7 @@ void InitHooking() {
 
 	MH_Initialize();
 
-	LPVOID approveLogin = (LPVOID)(baseaddress + 0x880050);
+	LPVOID approveLogin = (LPVOID)(baseaddress + approve_offset);
 
 	MH_CreateHook(approveLogin, ApproveLoginHook, &origApproveLogin);
 

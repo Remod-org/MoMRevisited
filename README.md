@@ -94,3 +94,5 @@ Once you have the minhook extension, you will need to rename or copy the most re
   - Client able to connect via console using UUU (8 Aug 2024)
   - TODO: On reconnect, client appears as a new player, losing progress.
 
+Note that any buildings and devices you deploy will persist, and you will still have access.  However, your inventory will be wiped on reconnect, and you may lose some or all blueprints.
+
