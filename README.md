@@ -60,7 +60,8 @@ Maintain the quotes since the path contains spaces.
   - Start the game client using game.bat
   - Run UuuClient.exe from the unpacked UUU folder
   - Press select and search for MemoriesOfMars.exe in the process list
-  - Select MemoriesOfMars.exe and press Select - this patches the live game to allow it to connect via console to your server.
+  - Select MemoriesOfMars.exe and press Select
+  - Press "Inject DLL" - this patches the live game to allow it to connect via console to your server.
   - In game, open console using ` - This may present as a single line at the bottom of your screen or at the top (have seen both).
   - Type the following:
 
