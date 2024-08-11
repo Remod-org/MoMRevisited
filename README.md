@@ -2,6 +2,8 @@
 
 This is a collection of scripts and binaries which can be used to re-enable the game server and client for Memories Of Mars.
 
+THIS IS NOT COMPLETE.  SOME FUNCTIONALITY IS WORKING BUT WORK IS STILL IN PROGRESS.
+
 History:
   On June 25, 2024, 505 Games took servers for the game offline.  This existed as possibly 2 servers on AWS that were used for server and client registration.  They facilitated a server list and client to server matchmaking.
 
@@ -60,8 +62,7 @@ Maintain the quotes since the path contains spaces.
   - Start the game client using game.bat
   - Run UuuClient.exe from the unpacked UUU folder
   - Press select and search for MemoriesOfMars.exe in the process list
-  - Select MemoriesOfMars.exe and press Select
-  - Press "Inject DLL" - this patches the live game to allow it to connect via console to your server.
+  - Select MemoriesOfMars.exe and press Select - this patches the live game to allow it to connect via console to your server.
   - In game, open console using ` - This may present as a single line at the bottom of your screen or at the top (have seen both).
   - Type the following:
 
