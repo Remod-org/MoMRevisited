@@ -22,6 +22,9 @@ History:
   - Since EAC will be disabled, keep this in mind for potential hackers with 'improved' clients and scripts.
 
 ## Server instructions
+
+These steps enable a mod for the login function of the game server.
+
   - This currently will only work for the Windows game server.
   - Edit your game server configs as follows
 
@@ -49,6 +52,8 @@ Successfully injected module!
   - For subsequent runs, you will need to run the game server followed by the injection script.
 
 ## Client instructions
+
+These steps enable a console to allow for direct server connection.
 
  - Download and unpack UUU from https://framedsc.com/GeneralGuides/universal_ue4_consoleunlocker.htm
  - Copy the game.bat file from this repo to your game client folder, e.g. C:\Program Files (x86)\Steam\SteamApps\common\Memories Of Mars.
