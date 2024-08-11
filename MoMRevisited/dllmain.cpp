@@ -14,11 +14,11 @@ int approve_offset = 0x880050;
 
 void* origApproveLogin = nullptr;
 
-unsigned long ApproveLoginHook(void* param1, unsigned long* param_2, unsigned int* param_3){
+unsigned long wipApproveLoginHook(void* param1, unsigned long* param_2, unsigned int* param_3){
   return 0x10101010;
 }
 
-bool oldApproveLoginHook(void* param1, void* param2, void* param_3){
+bool ApproveLoginHook(void* param1, void* param2, void* param_3){
 	return true;
 }
 
