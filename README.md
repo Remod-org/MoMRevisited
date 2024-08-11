@@ -76,7 +76,7 @@ open 127.0.0.1?accid=ABC123?authticket=ABC123?gender=male?bSpawnBot=false
   - Each time you run the game, you will need to run UUU and select the running game client.
   - Server connection will always be via the open string in the console (`)
   - The client does remember console entries, and you can use the up and down arrows to cycle through past commands
-  - There is (currently) no server browser
+  - There is (currently) no server browser - You will need to know the ip address of the target server, although DNS names may work.
 
 ## Compilation
 
