@@ -50,7 +50,7 @@ Copyright (c) 2009 Cypher, 2012-2024 Nefarius. All rights reserved.
 Successfully injected module!
 
   - To see that output, you would need to run the batch file in cmd.exe.
-  - For subsequent runs, you will need to run the game server followed by the injection script.
+  - For subsequent runs, you will need to run the game server using either server.bat or manually followed by the injection script.
 
 ## Client instructions
 
