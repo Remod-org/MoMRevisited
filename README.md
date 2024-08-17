@@ -41,6 +41,8 @@ DefaultPlatformService=null
   - Place the compiled MomRevisited.dll from this repo into your Windows game server folder.
   - Place the batch file, inject.bat from this repo, into the same game server folder.
   - Start the server, either from the command line RunServer.bat or via Steam (whichever works)
+  -   Recommended: Use server.bat from this repo.
+  -   Adjust the script as needed for your install path, and start the server ONLY using server.bat.
   - Run the inject.bat to patch the server.  This should return:
 
 Injector x64 [Version 20240218]
