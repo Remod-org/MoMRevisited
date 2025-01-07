@@ -37,6 +37,11 @@ DedicatedServerConfig.cfg:
 [OnlineSubsystem]
 DefaultPlatformService=null
 ```
+  - You may also need to adjust %AppData%\Local\MemoriesOfMars\Saved\Config\WindowsNoEditor\Engine.ini, if present:
+```
+[OnlineSubsystem]
+DefaultPlatformService=null
+```
   - Download an injector, e.g. https://github.com/nefarius/Injector and place the 64 bit copy of Injector.exe into your game server folder, e.g. C:\Program Files (x86)\Steam\SteamApps\common\Memories Of Mars - Dedicated Server.
   - Place the compiled MomRevisited.dll from this repo into your Windows game server folder.
   - Place the batch file, inject.bat from this repo, into the same game server folder.
