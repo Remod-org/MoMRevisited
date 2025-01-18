@@ -111,5 +111,11 @@ Once you have the minhook extension, you will need to rename or copy the most re
   - Spawning at a chamber works.  Otherwise, on reconnect, you will have to select a spawn region.
   - TODO: On reconnect, client appears as a new player, losing progress.
 
+## Hints
+  - To keep as much as possible, always remove all items from your inventory including armor before disconnecting
+  - Place your items in a storage container before disconnecting
+  - Always have a spawning chamber unless you want to run back to your base every time
+  - Leave the server running long enough to ensure inventory is kept as it was when you logged off
+
 Note that any buildings and devices you deploy will persist, and you will still have access.  However, your inventory will be wiped on reconnect, and you may lose some or all blueprints.
 
