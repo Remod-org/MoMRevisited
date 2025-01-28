@@ -11,7 +11,7 @@ History:
   Since this time, servers cannot register and will fail to start.  Clients also cannot browse for servers or be approved for connecting to any server.
 
   This code consists of:
-  - Injection to the server to modify the login process.  This is custom code by gwog which uses a 3rd party injector application.
+  - Injection to the server to modify the login process.  This is custom code by gwog:3 which uses a 3rd party injector application.
   - Injection to the client to allow for direct server connection via third party client injector
   - Scripts to facilitate server injection and client startup
   - Required server config changes to disable EAC and the proprietary Limbic subsystem.
