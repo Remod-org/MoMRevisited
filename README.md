@@ -1,6 +1,10 @@
 # MomRevisited (Memories Of Mars)
 ![](MomRevisited.jpeg)
 
+## Petition!!!
+There is an active petition to revive the game, and I have received some initial response from 505 Games.  PLEASE SIGN!
+https://c.org/2vMDm9Gr9t
+
 This is a collection of scripts and binaries which can be used to re-enable the game server and client for Memories Of Mars.
 
 THIS IS NOT COMPLETE.  SOME FUNCTIONALITY IS WORKING BUT WORK IS STILL IN PROGRESS.
