@@ -3,6 +3,8 @@
 
 ## Please see ![Mom-Relive](https://github.com/drbermejor/MoM-Relive) for a MUCH better solution.  Using that software, point it to mom.remod.org, port 8080, with key deadbeef.
 
+Join our ![discord](https://discord.gg/zSK6UbjQ3k) for more information.
+
 ## Petition!!!
 There is an active petition to revive the game, and I have received some initial response from 505 Games.  PLEASE SIGN!
 https://c.org/2vMDm9Gr9t
